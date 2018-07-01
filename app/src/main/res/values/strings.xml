@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Journal</string>
+
+
+
+    <!-- Strings for MainActivity -->
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+
+    <!-- Strings for AddTaskActivity -->
+    <!-- This etaskEntrytask has a unicode character for "..." = "&#8230;" -->
+    <string name="edit_journal_Title">Write your diary title </string>
+
+    <string name="edit_journal_description">Write your diary details </string>
+
+
+    <string name="add_button">Add</string>
+    <string name="update_button">Update</string>
+</resources>

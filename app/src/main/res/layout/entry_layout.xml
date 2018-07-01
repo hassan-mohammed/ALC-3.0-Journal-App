@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.android.journal.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/journalTitle"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_light"
+            tools:text="Description" />
+        <!-- TextView that displays the description -->
+        <TextView
+            android:id="@+id/journalDescription"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_light"
+            tools:text="Description" />
+
+        <!-- TextView that displays the update date -->
+        <TextView
+            android:id="@+id/journalDate"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/primary_text_light"
+            tools:text="00/00/0000" />
+
+    </LinearLayout>
+
+
+    <!-- TODO: change this to display Day  A priority circle that is colored in programmatically in the adapter code -->
+
+
+</LinearLayout>
+
+
